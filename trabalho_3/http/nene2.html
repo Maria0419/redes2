@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ode à Nenê</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+        body {
+            font-family: 'Lora', serif;
+            background-color: #fdfaf6;
+            color: #4a4a4a;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .card {
+            display: flex;
+            flex-direction: row;
+            background-color: #ffffff;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .card-image {
+            flex: 1;
+            background-size: cover;
+            background-position: center;
+            min-height: 400px;
+        }
+        .card-text {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            color: #7b5b4d;
+            font-weight: 700;
+            margin-top: 0;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #5c5c5c;
+            white-space: pre-line; /* Mantém as quebras de linha do poema */
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex-direction: column;
+            }
+            .card-image {
+               height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-image" style="background-image: url('nene2.png');" role="img" aria-label="Foto da gata Nenê sob o sol">
+        </div>
+        <div class="card-text">
+            <h1>Ode à Nene</h1>
+            <p>
+                Do pelo encharcado, um susto a lamber,
+                À gata imponente que vemos crescer.
+                Teus olhos, duas luas de um verde profundo,
+                Observam atenta o girar deste mundo.
+
+                No calor do sol, teu corpo se espicha,
+                Na fresta da porta, a vida engaticha.
+                És sombra que dança, silêncio que acalma,
+                A paz que se aninha e conforta a alma.
+
+                Nenê, melodia em quatro patas,
+                Que os dias mais simples transforma em datas,
+                E enche de afeto, com um simples miado,
+                Um lar para sempre por ti abençoado.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
